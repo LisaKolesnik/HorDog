@@ -1,0 +1,355 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "SFRounded";
+  src: local('SF Pro Rounded Heavy'), local('SFRounded-Ultralight'),
+      url('/fonts/SFRounded-Ultralight.woff2') format('woff2'),
+      url('/fonts/SFRounded-Ultralight.woff2') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  margin: 0 auto;
+  font-family: 'Nunito', sans-serif;
+}
+
+main {
+  background-image: url(../img/bg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+}
+
+.container {
+  width: 1024px;
+  margin: auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  display: flex;
+  margin: 40px 80px 0 0;
+}
+
+.logo__img {
+  width: 72px;
+  height: 72px;
+  margin-right: 16px;
+}
+
+.logo__text {
+  font-family: "SFRounded";
+  font-size: 28px;
+  line-height: 33px;
+  color: #1A1A1A;
+}
+
+.search {
+  background-color: #fff;
+  width: 510px;
+  height: 48px;
+  border-radius: 24px;
+  margin-top: 52px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.search__text {
+  font-size: 16px;
+  line-height: 20px;
+  color: #7B8E98;
+  margin-left: 20px;
+}
+
+.search__img {
+  width: 16px;
+  height: 16px;
+  margin-right: 20px;
+}
+
+.icons {
+  margin: 64px 0px 0 80px;
+  width: 140px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  justify-content: space-between;
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 52px;
+  margin-top: 80px;
+  color: #1A1A1A;
+}
+
+.main__text {
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 20px;
+  color: #1A1A1A;
+}
+
+.catalog {
+  background: #FFFFFF;
+  box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.02), 0px 2px 16px rgba(96, 97, 112, 0.16);
+  border-radius: 60px;
+  border: none;
+  width: 154px;
+  height: 56px;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 28px;
+  padding-right: 16px;
+  margin-top: 40px;
+  padding: 0 16px 0 25px;
+  font-family: 'Nunito', sans-serif;
+  color: #1A1A1A;
+  margin-bottom: 92px;
+}
+
+.main__img {
+  margin: 140px 220px 40px 0;
+}
+
+.menu {
+  width: 992px;
+  height: 132px;
+  background-color: #fff;
+  border-radius: 20px;
+  box-shadow: 0px 2px 4px rgba(40, 41, 61, 0.04), 0px 8px 16px rgba(96, 97, 112, 0.16);
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.menu__link {
+  width: 92px;
+  height: 92px;
+  text-align: center;
+}
+
+.menu__text {
+  text-align: center;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1A1A1A;
+  padding: 0;
+}
+
+.banner {
+  width: 992px;
+  height: 260px;
+  background-color: #FF8F27;
+  border-radius: 20px;
+  background-image: url(../img/Banner.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 38px 0 38px 87px;
+  margin: 40px auto;
+}
+
+h2 {
+  font-weight: 900;
+  font-size: 47px;
+  line-height: 50px;
+  color: #fff;
+  margin: 0;
+}
+
+.banner__text {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+  color: #fff;
+}
+
+.banner__free {
+  font-weight: 800;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.hits__headline {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h4 {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 32px;
+  color: #1A1A1A;
+}
+
+.l-r__buttons {
+  background-color: transparent;
+  border: none;
+}
+
+.hits__items {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 0 0 0;
+}
+
+.product {
+  width: 236px;
+  height: 359px;
+  text-align: left;
+  position: relative;
+}
+
+.follow {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  right: 1px;
+  top: 1px;
+}
+
+.old__price {
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 14px;
+  text-decoration-line: line-through;
+  color: #1A1A1A;
+  margin: 16px 0 0 0;
+}
+
+.new__price {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #F44336;
+  margin: 0;
+}
+
+.price{
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  color: #1A1A1A;
+  margin: 30px 0 0 0;
+}
+
+.number {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 14px;
+  color: #7B8E98;
+  margin: 6px 0 2px 0;
+}
+
+.name {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1A1A1A;
+  margin: 0;
+  height: 40px;
+}
+
+.in-cart {
+  background: #FED700;
+  border-radius: 55px;
+  width: 115px;
+  height: 40px;
+  border: none;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1A1A1A;
+  font-family: 'Nunito', sans-serif;
+  margin-top: 16px;
+}
+
+.banners {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 0;
+}
+
+.banner__second {
+  background-color: #D8A217;
+  background-image: url(../img/kit.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 488px;
+  height: 220px;
+  border-radius: 20px;
+  padding: 56px 0 51px 42px;
+}
+
+.second {
+  margin-top: 8px;
+}
+
+.banner__third {
+  background-color: #24B5BE;
+  background-image: url(../img/oil-mix.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 488px;
+  height: 220px;
+  border-radius: 20px;
+  padding: 68px 0 50px 42px;
+}
+
+.third {
+  margin-top: 16px;
+}
+
+h3 {
+  font-weight: 800;
+  font-size: 32px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin: 0;
+}
+
+.banners__text {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  color: #FFFFFF;
+}
+
+.banners__span {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 32px;
+  margin-top: 20px;
+  color: #fff;
+}
