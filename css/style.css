@@ -41,6 +41,10 @@ header {
   margin: 40px 80px 0 0;
 }
 
+.logo:hover {
+  cursor: pointer;
+}
+
 .logo__img {
   width: 72px;
   height: 72px;
@@ -131,6 +135,12 @@ h1 {
   margin-bottom: 92px;
 }
 
+.catalog:hover {
+  cursor: pointer;
+  background: #ffef89;
+  transition: 0.5s background-color;
+}
+
 .main__img {
   margin: 140px 220px 40px 0;
 }
@@ -167,6 +177,11 @@ a {
   padding: 0;
 }
 
+.menu__text:hover {
+  color: #FED700;
+  transition: 0.5s all;
+}
+
 .banner {
   width: 992px;
   height: 260px;
@@ -177,6 +192,10 @@ a {
   background-position: right;
   padding: 38px 0 38px 87px;
   margin: 40px auto;
+}
+
+.banner:hover {
+  cursor: pointer;
 }
 
 h2 {
@@ -200,7 +219,7 @@ h2 {
   line-height: 28px;
 }
 
-.hits__headline {
+.headline {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -211,6 +230,7 @@ h4 {
   font-size: 28px;
   line-height: 32px;
   color: #1A1A1A;
+  margin: 0;
 }
 
 .l-r__buttons {
@@ -218,7 +238,11 @@ h4 {
   border: none;
 }
 
-.hits__items {
+.l-r__buttons:hover {
+  cursor: pointer;
+}
+
+.items {
   display: flex;
   justify-content: space-between;
   margin: 20px 0 0 0;
@@ -231,11 +255,27 @@ h4 {
   position: relative;
 }
 
+.product__img:hover {
+  cursor: pointer;
+}
+
 .follow {
   background-color: transparent;
   border: none;
   position: absolute;
   right: 1px;
+  top: 1px;
+}
+
+.follow:hover {
+  cursor: pointer;
+}
+
+.badge {
+  background-color: transparent;
+  border: none;
+  position: absolute;
+  left: 1px;
   top: 1px;
 }
 
@@ -295,10 +335,21 @@ h4 {
   margin-top: 16px;
 }
 
+.in-cart:hover {
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #1A1A1A;
+  transition: 0.5s all;
+}
+
 .banners {
   display: flex;
   justify-content: space-between;
   margin: 40px 0;
+}
+
+.banners:hover {
+  cursor: pointer;
 }
 
 .banner__second {
@@ -352,4 +403,34 @@ h3 {
   line-height: 32px;
   margin-top: 20px;
   color: #fff;
+}
+
+.goodies {
+  margin-bottom: 40px;
+}
+
+.banner__fourth {
+  background-color: #9CCD55;
+  background-image: url(../img/hornsb.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 488px;
+  height: 220px;
+  border-radius: 20px;
+  padding: 50px 0 43px 42px;
+}
+
+.banner__fiveth {
+  background-color: #DB6825;
+  background-image: url(../img/neck.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 488px;
+  height: 220px;
+  border-radius: 20px;
+  padding: 64px 0 58px 42px;
+}
+
+.kits {
+  margin-top: 16px;
 }
