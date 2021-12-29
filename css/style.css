@@ -57,6 +57,7 @@ header {
   font-family: "SFRounded";
   font-size: 28px;
   line-height: 33px;
+  font-weight: bold;
 }
 
 .search {
