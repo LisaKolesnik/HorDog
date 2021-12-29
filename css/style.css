@@ -7,8 +7,8 @@
 @font-face {
   font-family: "SFRounded";
   src: local("SFRounded"),
-      url('/fonts/SFRounded-Ultralight.woff2') format('woff2'),
-      url('/fonts/SFRounded-Ultralight.woff') format('woff');
+      url('../fonts/SFRounded-Ultralight.woff2') format('woff2'),
+      url('../fonts/SFRounded-Ultralight.woff') format('woff');
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -57,7 +57,6 @@ header {
   font-family: "SFRounded";
   font-size: 28px;
   line-height: 33px;
-  font-weight: bold;
 }
 
 .search {
