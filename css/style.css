@@ -6,11 +6,12 @@
 
 @font-face {
   font-family: "SFRounded";
-  src: local('SF Pro Rounded Heavy'), local('SFRounded-Ultralight'),
+  src: local("SFRounded"),
       url('/fonts/SFRounded-Ultralight.woff2') format('woff2'),
       url('/fonts/SFRounded-Ultralight.woff2') format('woff');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 body {
